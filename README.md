@@ -49,8 +49,18 @@ Para replicar, ejecutar y validar este desarrollo, se requieren las siguientes h
 
 **2.	Obtención del Proyecto:** Clona este repositorio e importa el directorio completo en tu workspace de VS Code.
 
-**3.	Selección del Kernel:** Abre cualquiera de los 4 cuadernos contenidos en la carpeta JupyterNotebooks/ (katas_1_10.ipynb, katas_11_20.ipynb, katas_21_30.ipynb, katas_31_41.ipynb) y selecciona el intérprete local de Python como kernel activo en la esquina superior derecha del editor.
-4.	Ejecución y Verificación: Ejecuta las celdas de código de forma secuencial mediante Shift + Enter o presiona "Run All" para validar la suite completa de pruebas y la salida formateada en consola.
+**3.	Selección del Kernel:** Abre cualquiera de los 4 cuadernos contenidos en la carpeta *JupyterNotebooks/ (katas_1_10.ipynb, katas_11_20.ipynb, katas_21_30.ipynb, katas_31_41.ipynb)* y selecciona el intérprete local de Python como kernel activo en la esquina superior derecha del editor.
+
+**4.	Ejecución y Verificación:** Ejecuta las celdas de código de forma secuencial mediante Shift + Enter o presiona "Run All" para validar la suite completa de pruebas y la salida formateada en consola.
+
+## 📊5. Tabla Resumen de Cobertura
+
+| Notebook | Katas | Tópico Principal | Herramientas / Librerías Clave |
+| :--- | :--- | :--- | :--- |
+| `katas_1_10.ipynb` | 1 – 10 | Sintaxis base, cadenas y matemáticas | Tipos de datos primarios, operadores |
+| `katas_11_20.ipynb` | 11 – 20 | Bucles y lógica condicional | `for`, `while`, `if/elif/else` |
+| `katas_21_30.ipynb` | 21 – 30 | Colecciones y funciones | `list`, `dict`, `set`, `tuple` |
+| `katas_31_41.ipynb` | 31 – 41 | Funcional, `datetime` y reglas de negocio | `functools` (`reduce`), `datetime`, `math` *(Kata 35 omitida)* |
 
 ## 🎯6. Hitos y Aprendizajes Destacados
 Durante el desarrollo se aplicaron soluciones a problemas muy específicos de implementación:
@@ -64,13 +74,3 @@ Durante el desarrollo se aplicaron soluciones a problemas muy específicos de im
 •	**Kata 40 (Unpacking de Tuplas y Multi-tipo):** Evaluación geométrica desacoplada mediante desestructuración de tuplas *(base, altura)* o *(radio,)*, permitiendo el formateo dinámico tanto de números enteros *(int)* como decimales *(float)*.
 
 •	**Kata 41 (Simulación Comercial Completa):** Flujo condicional anidado para evaluar precios, estado de cupones y descuentos válidos **($>0$)**, gestionando errores de entrada de forma airosa.
-
-## 📊5. Tabla Resumen de Cobertura
-
-| Notebook | Katas | Tópico Principal | Herramientas / Librerías Clave |
-| :--- | :--- | :--- | :--- |
-| `katas_1_10.ipynb` | 1 – 10 | Sintaxis base, cadenas y matemáticas | Tipos de datos primarios, operadores |
-| `katas_11_20.ipynb` | 11 – 20 | Bucles y lógica condicional | `for`, `while`, `if/elif/else` |
-| `katas_21_30.ipynb` | 21 – 30 | Colecciones y funciones | `list`, `dict`, `set`, `tuple` |
-| `katas_31_41.ipynb` | 31 – 41 | Funcional, `datetime` y reglas de negocio | `functools` (`reduce`), `datetime`, `math` *(Kata 35 omitida)* |
-
