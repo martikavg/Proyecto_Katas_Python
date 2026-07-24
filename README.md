@@ -1,1 +1,1 @@
-# Proyecto_Katas_Python
+🐍 Proyecto Lógica: Katas de Python
